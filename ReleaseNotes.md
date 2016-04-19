@@ -1,10 +1,14 @@
-Google Toolbox for Mac Release Notes
+# GTM: Google Toolbox for Mac #
+## Release History ##
 
-Project site:     http://code.google.com/p/google-toolbox-for-mac/
-Discussion group: http://groups.google.com/group/google-toolbox-for-mac
+*NOTE:* There haven't been release as most users of this code have just been
+pulling trunk the HEAD code to get the latest updates/fixes.  This code is also
+a little different in that it is more of a "collection" of things than a single
+library providing one thing, so by pulling in individual source files,
+developers can pick up the individual parts they need.
 
-Release 2.0.??
-Changes since 1.6.0
+**Release 2.0.??**<br>
+Changes since 1.6.0<br>
 ??-??-??
 
 - Removed iPhone/GTMABAddressBook in favor of AddressBook/GTMABAddressBook.
@@ -34,8 +38,8 @@ Changes since 1.6.0
 - Removed GTMNSNumber+64Bit methods as obsolete.
 
 
-Release 1.6.0
-Changes since 1.5.1
+**Release 1.6.0**<br>
+Changes since 1.5.1<br>
 18-August-2010
 
 - Added GTMNSImage+SearchCache for fetching images based on a variety of
@@ -436,9 +440,9 @@ Changes since 1.5.1
 - Changed GTMStackTrace to put out a cleaner trace, and to work on 64 bit.
   NOTE that if you are parsing this format, that it has changed.
   eg 32 bit
-  #0  UnitTest - Foundation               0x0001c392 -[SenTest run]
+  \#0  UnitTest - Foundation               0x0001c392 -[SenTest run]
   and 64 bit
-  #0  UnitTest - Foundation               0x10010000001c3921 -[SenTest run]
+  \#0  UnitTest - Foundation               0x10010000001c3921 -[SenTest run]
 
 - Added GTMNSAnimatablePropertyContainer methods that allow you to stop
   animations properly in 10.5.
@@ -452,15 +456,15 @@ Changes since 1.5.1
   GTMNSFileHandle+UniqueName.
 
 
-Release 1.5.1
-Changes since 1.5.0
+**Release 1.5.1**<br>
+Changes since 1.5.0<br>
 16-June-2008
 
 - Fixed building tiger gcov with a directory path that contains a space.
 
 
-Release 1.5.0
-Changes since 1.0.0
+**Release 1.5.0**<br>
+Changes since 1.0.0<br>
 13-June-2008
 
 - Updated the project to Xcode 3.  This is the only supported Xcode version
@@ -581,7 +585,7 @@ Changes since 1.0.0
   file. Tests can now be run from another application.
 
 
-Release 1.0.0
+**Release 1.0.0**<br>
 14-January-2008
 
 - Initial public release.  Includes some simple utils, xcode configs, and

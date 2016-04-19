@@ -52,7 +52,7 @@
 //
 @interface GTMLogASLWriter : NSObject <GTMLogWriter> {
  @private
-  __weak Class aslClientClass_;
+  GTM_WEAK Class aslClientClass_;
   NSString *facility_;
 }
 
@@ -93,6 +93,7 @@
 @interface GTMLoggerASLClient : NSObject {
  @private
   aslclient client_;
+  aslmsg msgOptions_;
 }
 
 // Designated initializer, |facility| is supplied to asl_open().
