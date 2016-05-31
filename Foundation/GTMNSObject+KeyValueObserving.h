@@ -51,7 +51,7 @@
 - (void)gtm_addObserver:(id)observer 
              forKeyPath:(NSString *)keyPath 
                selector:(SEL)selector 
-               userInfo:(id)userInfo 
+               userxInfo:(id)userInfo
                 options:(NSKeyValueObservingOptions)options;
 // Use this instead of [NSObject removeObserver:forKeyPath:]
 - (void)gtm_removeObserver:(id)observer 

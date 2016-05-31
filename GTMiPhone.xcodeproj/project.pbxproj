@@ -766,8 +766,8 @@
 				BE9B793D14FE99F3004A993A /* GTMURLBuilder.h */,
 				BE9B793E14FE99F3004A993A /* GTMURLBuilder.m */,
 				BE9B793F14FE99F3004A993A /* GTMURLBuilderTest.m */,
-				8B41EC0D0E0711D40040CF9F /* GTMValidatingContainers.m */,
 				8B41EC0E0E0711D40040CF9F /* GTMValidatingContainers.h */,
+				8B41EC0D0E0711D40040CF9F /* GTMValidatingContainers.m */,
 				8B41EC0C0E0711D40040CF9F /* GTMValidatingContainersTest.m */,
 			);
 			path = Foundation;
